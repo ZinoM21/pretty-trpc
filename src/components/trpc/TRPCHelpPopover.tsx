@@ -24,12 +24,12 @@ export default function TRPCHelpPopover() {
               Finding tRPC Requests in Network Tab
             </h3>
             <div className="space-y-2 text-sm text-gray-600 dark:text-gray-300">
-              <p>1. Open your browser's Developer Tools (F12)</p>
+              <p>1. Open your browser&apos;s Developer Tools (F12)</p>
               <p>
                 2. Go to the <strong>Network</strong> tab
               </p>
               <p>
-                3. Look for tRPC batch requests (usually contain "/trpc/" in the
+                3. Look for tRPC batch requests (usually contain &quot;/trpc/&quot; in the
                 URL)
               </p>
               <p>4. Right-click on the request to see the context menu</p>
@@ -37,7 +37,7 @@ export default function TRPCHelpPopover() {
           </div>
 
           <div className="border rounded-lg overflow-hidden">
-            <Image
+            <Image 
               src="/copy.png"
               alt="Browser context menu showing Copy URL and Copy response options"
               width={400}
